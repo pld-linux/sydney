@@ -9,8 +9,8 @@ Release:	4
 Epoch:		1
 License:	The Ruby License
 Group:		Development/Languages
-Source0:	sydney-20050712.tar.gz
-# Source0-md5:	13a0313067fd864123c73927049b78f6
+Source0:	http://blog.fallingsnow.net/archive/sydney-dr2.tar.gz
+# Source0-md5:	9726048dffd725ed53fd698fe1ad8687
 Source1:	http://www.ibiblio.org/pub/languages/ruby/doc/ruby-texi-1.4-en.tar.gz
 # Source1-md5:	839fda4af52b5c5c6d21f879f7fc62bf
 Source2:	http://www.math.sci.hokudai.ac.jp/~gotoken/ruby/ruby-uguide-981227.tar.gz
@@ -100,7 +100,7 @@ Ruby static libraries.
 Biblioteki statyczne Ruby.
 
 %prep
-%setup -q -n sydney -a1 -a2 -a3 -a6
+%setup -q -n sydney-dr2 -a1 -a2 -a3 -a6
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
