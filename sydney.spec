@@ -1,8 +1,4 @@
-Summary:	Ruby - interpreted scripting language
-Summary(ja):	オブジェクト回羹咐胳Rubyインタプリタ
-Summary(pl):	Ruby - interpretowany j陑yk skryptowy
-Summary(pt_BR):	Linguagem de script orientada a objeto
-Summary(zh_CN):	ruby - 一种快速高效的面向对象脚本编程语言
+Summary:	Ruby Experimental fork of the interpreter. Real threads, other improvements.
 Name:		sydney
 Version:	1.8.2
 Release:	4
@@ -21,7 +17,6 @@ Source4:	irb.1
 %define stdlibdoc_version	0.9.13
 Source6:	http://www.ruby-doc.org/downloads/stdlib/ruby-doc-stdlib-%{stdlibdoc_version}.tgz
 # Source6-md5:	39dab8db652dad23ad8951f851549f06
-Source8:	macros.ruby
 Patch0:		ruby-info.patch
 Patch1:		ruby-LIB_PREFIX.patch
 Patch2:		ruby-ia64.patch
@@ -123,7 +118,7 @@ rm -r ext/tcltklib
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_infodir},%{_mandir}/man1,%{_examplesdir}/ruby-%{version},%{_libdir}/rpm,%{_datadir}/ruby}
+install -d $RPM_BUILD_ROOT{%{_infodir},%{_mandir}/man1,%{_examplesdir}/ruby-%{version},%{_datadir}/ruby}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
@@ -134,8 +129,6 @@ install %{SOURCE4} $RPM_BUILD_ROOT%{_mandir}/man1
 
 mv -f ruby-uguide guide
 mv -f rubyfaq faq
-
-install %{SOURCE8} $RPM_BUILD_ROOT%{_libdir}/rpm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
