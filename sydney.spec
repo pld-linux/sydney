@@ -48,50 +48,50 @@ object-oriented programming. It has many features to process text
 files and to do system management tasks (as in Perl). It is simple,
 straight-forward, extensible, and portable.
 
-%description -l ja
-Ruby¤Ï¥·¥ó¥×¥ë¤«¤Ä¶¯ÎÏ¤Ê¥ª¥Ö¥¸¥§¥¯¥È»Ø¸ş¥¹¥¯¥ê¥×¥È¸À¸ì¤Ç¤¹¡¥Ruby¤ÏºÇ½é
-¤«¤é½ã¿è¤Ê¥ª¥Ö¥¸¥§¥¯¥È»Ø¸ş¸À¸ì¤È¤·¤ÆÀß·×¤µ¤ì¤Æ¤¤¤Ş¤¹¤«¤é¡¤¥ª¥Ö¥¸¥§¥¯¥È
-»Ø¸ş¥×¥í¥°¥é¥ß¥ó¥°¤ò¼ê·Ú¤Ë¹Ô¤¦»ö¤¬½ĞÍè¤Ş¤¹¡¥¤â¤Á¤í¤óÄÌ¾ï¤Î¼êÂ³¤­·¿¤Î¥×
-¥í¥°¥é¥ß¥ó¥°¤â²ÄÇ½¤Ç¤¹¡¥
+%description -l ja.UTF-8
+Rubyã¯ã‚·ãƒ³ãƒ—ãƒ«ã‹ã¤å¼·åŠ›ãªã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆæŒ‡å‘ã‚¹ã‚¯ãƒªãƒ—ãƒˆè¨€èªã§ã™ï¼Rubyã¯æœ€åˆ
+ã‹ã‚‰ç´”ç²‹ãªã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆæŒ‡å‘è¨€èªã¨ã—ã¦è¨­è¨ˆã•ã‚Œã¦ã„ã¾ã™ã‹ã‚‰ï¼Œã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ
+æŒ‡å‘ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ã‚’æ‰‹è»½ã«è¡Œã†äº‹ãŒå‡ºæ¥ã¾ã™ï¼ã‚‚ã¡ã‚ã‚“é€šå¸¸ã®æ‰‹ç¶šãå‹ã®ãƒ—
+ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ã‚‚å¯èƒ½ã§ã™ï¼
 
-Ruby¤Ï¥Æ¥­¥¹¥È½èÍı´Ø·¸¤ÎÇ½ÎÏ¤Ê¤É¤ËÍ¥¤ì¡¤Perl¤ÈÆ±¤¸¤¯¤é¤¤¶¯ÎÏ¤Ç¤¹¡¥¤µ¤é
-¤Ë¥·¥ó¥×¥ë¤ÊÊ¸Ë¡¤È¡¤Îã³°½èÍı¤ä¥¤¥Æ¥ì¡¼¥¿¤Ê¤É¤Îµ¡¹½¤Ë¤è¤Ã¤Æ¡¤¤è¤êÊ¬¤«¤ê
-¤ä¤¹¤¤¥×¥í¥°¥é¥ß¥ó¥°¤¬½ĞÍè¤Ş¤¹¡¥
+Rubyã¯ãƒ†ã‚­ã‚¹ãƒˆå‡¦ç†é–¢ä¿‚ã®èƒ½åŠ›ãªã©ã«å„ªã‚Œï¼ŒPerlã¨åŒã˜ãã‚‰ã„å¼·åŠ›ã§ã™ï¼ã•ã‚‰
+ã«ã‚·ãƒ³ãƒ—ãƒ«ãªæ–‡æ³•ã¨ï¼Œä¾‹å¤–å‡¦ç†ã‚„ã‚¤ãƒ†ãƒ¬ãƒ¼ã‚¿ãªã©ã®æ©Ÿæ§‹ã«ã‚ˆã£ã¦ï¼Œã‚ˆã‚Šåˆ†ã‹ã‚Š
+ã‚„ã™ã„ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ãŒå‡ºæ¥ã¾ã™ï¼
 
-%description -l pl
-Ruby to interpretowany jêzyk skryptowy, w sam raz dla ³atwego i
-szybkiego pisania zorientowanych obiektowo programów. Ma wiele funkcji
-u³atwiaj±cych przetwarzanie plików tekstowych i wykonywanie prac
-zwi±zanych z zarz±dzaniem systemu (podobnie jak Perl). Jest prosty,
-rozszerzalny i przeno¶ny.
+%description -l pl.UTF-8
+Ruby to interpretowany jÄ™zyk skryptowy, w sam raz dla Å‚atwego i
+szybkiego pisania zorientowanych obiektowo programÃ³w. Ma wiele funkcji
+uÅ‚atwiajÄ…cych przetwarzanie plikÃ³w tekstowych i wykonywanie prac
+zwiÄ…zanych z zarzÄ…dzaniem systemu (podobnie jak Perl). Jest prosty,
+rozszerzalny i przenoÅ›ny.
 
-%description -l pt_BR
-Ruby é uma linguagem de script interpretada de programação
-orientada a objeto. Possui diversas características para
-processamento de texto. É simples, extensível e direta.
+%description -l pt_BR.UTF-8
+Ruby Ã© uma linguagem de script interpretada de programaÃ§Ã£o
+orientada a objeto. Possui diversas caracterÃ­sticas para
+processamento de texto. Ã‰ simples, extensÃ­vel e direta.
 
 %package devel
 Summary:	Ruby development libraries
-Summary(pl):	Biblioteki programistyczne interpretera jêzyka Ruby
+Summary(pl.UTF-8):   Biblioteki programistyczne interpretera jÄ™zyka Ruby
 Group:		Development/Languages
 Requires:	ruby = %{epoch}:%{version}-%{release}
 
 %description devel
 Ruby development libraries.
 
-%description devel -l pl
-Biblioteki programistyczne interpretera jêzyka Ruby.
+%description devel -l pl.UTF-8
+Biblioteki programistyczne interpretera jÄ™zyka Ruby.
 
 %package static
 Summary:	Ruby static libraries
-Summary(pl):	Biblioteki statyczne Ruby
+Summary(pl.UTF-8):   Biblioteki statyczne Ruby
 Group:		Development/Languages
 Requires:	ruby = %{epoch}:%{version}-%{release}
 
 %description static
 Ruby static libraries.
 
-%description devel -l pl
+%description devel -l pl.UTF-8
 Biblioteki statyczne Ruby.
 
 %prep
