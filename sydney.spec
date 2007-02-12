@@ -72,7 +72,7 @@ processamento de texto. É simples, extensível e direta.
 
 %package devel
 Summary:	Ruby development libraries
-Summary(pl.UTF-8):   Biblioteki programistyczne interpretera języka Ruby
+Summary(pl.UTF-8):	Biblioteki programistyczne interpretera języka Ruby
 Group:		Development/Languages
 Requires:	ruby = %{epoch}:%{version}-%{release}
 
@@ -84,7 +84,7 @@ Biblioteki programistyczne interpretera języka Ruby.
 
 %package static
 Summary:	Ruby static libraries
-Summary(pl.UTF-8):   Biblioteki statyczne Ruby
+Summary(pl.UTF-8):	Biblioteki statyczne Ruby
 Group:		Development/Languages
 Requires:	ruby = %{epoch}:%{version}-%{release}
 
