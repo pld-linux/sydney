@@ -34,7 +34,7 @@ Obsoletes:	ruby-doc
 Obsoletes:	rdoc
 Obsoletes:	ruby-REXML
 Provides:	ruby = %{epoch}:%{version}-%{release}
-BuildRoot:	%{tmpdir}/ruby-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_ulibdir	%{_prefix}/lib
 
