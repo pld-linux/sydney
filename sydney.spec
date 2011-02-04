@@ -91,7 +91,7 @@ Requires:	ruby = %{epoch}:%{version}-%{release}
 %description static
 Ruby static libraries.
 
-%description devel -l pl.UTF-8
+%description static -l pl.UTF-8
 Biblioteki statyczne Ruby.
 
 %prep
