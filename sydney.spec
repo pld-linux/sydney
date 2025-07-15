@@ -96,10 +96,10 @@ Biblioteki statyczne Ruby.
 
 %prep
 %setup -q -n sydney-dr2 -a1 -a2 -a3 -a6
-%patch0 -p1
-%patch1 -p1
-%patch2 -p1
-%patch3 -p1
+%patch -P0 -p1
+%patch -P1 -p1
+%patch -P2 -p1
+%patch -P3 -p1
 
 find . -name '*.rb' -or -name '*.cgi' -or -name '*.test' | xargs perl -pi -e "s#/usr/local/bin#bin#"
 
